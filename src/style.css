@@ -15,13 +15,14 @@ body {
   background-color: #fff;
 }
 
-.logo-link {
+.header_logo-link {
   margin-left: 50px;
 }
 
-.logo {
+.header_logo {
   width: 40px;
   height: 40px;
+  display: block;
 }
 
 .nav {
@@ -31,7 +32,6 @@ body {
 .nav__list {
   display: flex;
   list-style: none;
-  height: 60px;
   align-items: center;
   margin: 0;
   padding: 0;
@@ -45,11 +45,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
   text-decoration: none;
   color: #000;
   text-transform: uppercase;
   font-weight: 500;
+  font-size: 12px;
+  height: 60px;
   line-height: 60px;
   position: relative;
 }
